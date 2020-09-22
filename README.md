@@ -16,3 +16,5 @@ start "Radio Station" /wait "DCS-SR-ExternalAudio.exe" "%%~nxf" 305.0 AM 2 5002 
 - Port - 5002 is the default
 - Name - name of your transmitter - no spaces
 - Volume - 1.0 is max, 0.0 is silence
+
+5. Run `radioStation.bat`
