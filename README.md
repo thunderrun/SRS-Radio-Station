@@ -7,7 +7,7 @@ Playing all mp3 music in your SRS folder @305AM for DCS SRS
 4. Modify line 6 in `radioStation.bat` to setup your parameters
 
 ```bat
-start "Radio Station" /wait "DCS-SR-ExternalAudio.exe" "%%~nxf" 305.0 AM 2 5002 RadioStation 1.0
+start "Radio Station" /wait "DCS-SR-ExternalAudio.exe" "%%f" 305.0 AM 2 5002 RadioStation 1.0
 ```
 
 - Frequency in MHz comma separated - 251.0,305.0 or just 305.0
